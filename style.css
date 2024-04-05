@@ -1,0 +1,59 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+:focus {
+ /* TODO */
+}
+
+body {
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+input {
+  font-size: 27px;
+  height: 3%;
+  width: 20%;
+ /* TODO */
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  /* TODO */
+}
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+}
+.search-container input {
+ /* TODO */
+}
+.search-container .suggestions {
+   /* TODO */
+}
+
+ul {
+  /* TODO */
+}
+ul.has-suggestions {
+  font-size: 39px;
+  /* TODO */
+}
+ul li {
+  font-size: 12px;
+  /* TODO */
+}
+ul li:hover {
+  /* font-weight: bold; */
+  /* TODO */
+}
+
+input {
+   /* TODO */
+}
+
