@@ -97,16 +97,6 @@ function searchHandler(e) {
   showSuggestions(results, inputVal);
 }
 
-// function showSuggestions(results, inputVal) {
-//   // TODO
-//   suggestions.innerHTML = ""; // Clear previous suggestions
-//   results.forEach((result) => {
-//     const li = document.createElement("li");
-//     li.textContent = result;
-//     suggestions.appendChild(li);
-//   });
-// }
-
 function showSuggestions(results, inputVal) {
   suggestions.innerHTML = ""; // Clear previous suggestions
   if (results.length > 0) {
