@@ -91,23 +91,22 @@ function search(str) {
 }
 
 function searchHandler(e) {
-  // TODO
   const inputVal = e.target.value.trim();
   const results = search(inputVal);
   showSuggestions(results, inputVal);
 }
 
 function showSuggestions(results, inputVal) {
-  suggestions.innerHTML = ""; // Clear previous suggestions
+  suggestions.innerHTML = "";
   if (results.length > 0) {
-    suggestions.style.display = "block"; // Display the suggestion list only if there are results
+    suggestions.style.display = "block";
     results.forEach((result) => {
       const li = document.createElement("li");
       li.textContent = result;
       suggestions.appendChild(li);
     });
   } else {
-    suggestions.style.display = "none"; // Hide the suggestion list if there are no results
+    suggestions.style.display = "none";
   }
 }
 
@@ -115,7 +114,7 @@ function useSuggestion(e) {
   // TODO
   if (e.target.tagName === "LI") {
     input.value = e.target.textContent;
-    suggestions.innerHTML = ""; // Clear suggestions after selecting one
+    suggestions.innerHTML = "";
   }
 }
 

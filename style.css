@@ -1,11 +1,3 @@
-* {;
-  /* box-sizing: border-box; */
-}
-
-:focus {
- /* TODO */
-}
-
 body {
   background: rgb(253,77,29);
 background: linear-gradient(90deg, rgba(253,77,29,1) 0%, rgba(252,176,69,1) 100%);
@@ -14,7 +6,6 @@ background: linear-gradient(90deg, rgba(253,77,29,1) 0%, rgba(252,176,69,1) 100%
 input {
  width: 400px;
  position: relative;
-
 }
 
 .search-container {
@@ -22,16 +13,12 @@ input {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
 
-  /* TODO */
-}
-.search-container input,
-.search-container .suggestions {
-  /* TODO */
-}
 .search-container input {
   padding: 0 10px;
 }
+
 .search-container .suggestions {
   position: absolute;
   top: 472px;
@@ -47,15 +34,18 @@ ul {
   max-height: 200px;
   overflow-y: auto;
 }
+
 ul.has-suggestions {
   display: block;
   font-size: 39px;
 }
+
 ul li {
   padding: 10px;
   cursor: pointer;
   font-size: 12px;
 }
+
 ul li:hover {
   cursor: pointer;
   background-color: #e65c00 ;
